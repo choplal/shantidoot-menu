@@ -56,7 +56,7 @@ export default function App() {
             <Item name="PANEER PAKODA" price="180" />
             <Item name="ONION PAKODA" price= "100" />
             <Item name="CHANA ROAST" price="140" />
-            <Item name="FINGER CHIPS" price= "20" />
+            <Item name="FINGER CHIPS" price= "90" />
             <Item name="PEANUT MASLALA" price= "130" />
             <Item name="PEANUT FRY" price= "100" />
             <Item name="PANEER TIKKA (8 PCS)" price="270" />
