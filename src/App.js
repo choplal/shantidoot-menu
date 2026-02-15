@@ -99,7 +99,7 @@ export default function App() {
           <MenuSection title="PANEER (MAIN)">
             <Item name="PANEER PUNJABI" price="260 / 140" />
             <Item name="PANEER KOLHAPURI" price="190" />
-            <Item name="PANEER BUTTER MASALA" price="240/130" />
+            <Item name="PANEER BUTTER MASALA" price= "240/130" />
             <Item name="PANEER SHAHI" price="240 / 130" />
             <Item name="PANEER DHABA" price="240 / 130" />
             <Item name="PANEER MUTTER" price="220 / 130" />
@@ -107,7 +107,7 @@ export default function App() {
             <Item name="KAJU CURRY" price="240 / 130" />
             <Item name="PANEER CORN" price="240 / 130" />
             <Item name="CORN PALAK" price="180 / 130" />
-            <Item name="CHEESE BUTTER MASALA" price="270 / 140" />
+            <Item name="CHEESE BUTTER MASALA" price= "270/140" />
             <Item name="MUSHROOM PALAK" price="270 / 140" />
             <Item name="MUSHROOM MASALA" price="260 / 140" />
             <Item name="MUSHROOM MUTTER" price="260 / 140" />
@@ -195,8 +195,8 @@ export default function App() {
           </MenuSection>
 
           <MenuSection title="ROTI">
-           <Item name="PLAIN ROTI (TAWA/TANDOORI)" price="12" />
-<Item name="BUTTER ROTI (TAWA/TANDOORI)" price="15" />
+           <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="12"/>
+<Item name="BUTTER ROTI (TAWA/TANDOORI)"price="15"/>
 <Item name="PLAIN NAAN" price="35" />
 <Item name="BUTTER NAAN" price="40" />
 <Item name="LACHHA PARATHA" price="40" />
@@ -243,7 +243,9 @@ export default function App() {
 
         {/* Footer */}
         <div className="text-center mt-20 border-t border-yellow-600 pt-6 text-xs text-gray-500 tracking-widest">
-          PRICES IN INR • TAXES EXTRA • THANK YOU FOR VISITING
+           ऑर्डर देने के बाद भोजन तैयार होने में 20–30 मिनट का समय लगेगा।
+           After placing your order, please note that it will take 20–30 minutes to prepare.
+           • THANK YOU FOR VISITING
         </div>
       </div>
     </div>
