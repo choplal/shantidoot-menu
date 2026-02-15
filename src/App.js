@@ -56,9 +56,8 @@ export default function App() {
             <Item name="PANEER PAKODA" price="180" />
             <Item name="ONION PAKODA" price= "100" />
             <Item name="CHANA ROAST" price="140" />
-            <Item name="FINGER CHIPS" price= "90" />
             <Item name="PEANUT MASLALA" price= "130" />
-            <Item name="PEANUT FRY" price= "100" />
+            <Item name="PEANUT FRY" price= "110" />
             <Item name="PANEER TIKKA (8 PCS)" price="270" />
           </MenuSection>
 
@@ -207,7 +206,7 @@ export default function App() {
           </MenuSection>
 
           <MenuSection title="ROTI">
-           <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="13"/>
+           <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="12"/>
 <Item name="BUTTER ROTI (TAWA/TANDOORI)"price="16"/>
 <Item name="PLAIN NAAN" price="35" />
 <Item name="BUTTER NAAN" price="45" />
