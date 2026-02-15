@@ -254,12 +254,20 @@ export default function App() {
         </div>
 
         {/* Footer */}
-        <div className="text-center mt-16 border-t border-yellow-600 pt-6">
-  <p className="text-yellow-400 text-sm tracking-wide whitespace-nowrap">
-    ऑर्डर देने के बाद भोजन तैयार होने में 20–30 मिनट का समय लगेगा • 
-    After placing your order, it will take 20–30 minutes to prepare • 
-    THANK YOU FOR VISITING
+       <div className="text-center mt-16 border-t border-yellow-600 pt-6 space-y-2">
+
+  <p className="text-yellow-400 text-sm tracking-wide">
+    ऑर्डर देने के बाद भोजन तैयार होने में 20–30 मिनट का समय लगेगा
   </p>
+
+  <p className="text-gray-300 text-sm tracking-wide">
+    After placing your order, it will take 20–30 minutes to prepare
+  </p>
+
+  <p className="text-yellow-500 text-sm tracking-[3px] uppercase font-semibold">
+    Thank You For Visiting
+  </p>
+
 </div>
       </div>
     </div>
