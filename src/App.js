@@ -76,20 +76,33 @@ export default function App() {
             <Item name="PANEER TIKKA (8 PCS)" price="270" />
           </MenuSection>
 
+                     <MenuSection title="ROTI">
+            <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="14"/>
+            <Item name="BUTTER ROTI (TAWA/TANDOORI)" price="17" />
+            <Item name="PLAIN NAAN" price="35" />
+            <Item name="BUTTER NAAN" price="45" />
+            <Item name="LACHHA PARATHA" price="40" />
+            <Item name="GARLIC NAAN" price="70" />
+            <Item name="PANEER KULCHA" price="100" />
+            <Item name="ONION KULCHA" price="70" />
+            <Item name="MISSI ROTI" price="40" />
+            <Item name="STUFF KULCHA" price="80" />
+          </MenuSection>
+
           <MenuSection title="RICE">
             <Item name="PLAIN RICE" price="110 / 80" />
-<Item name="JEERA RICE" price="120 / 90" />
-<Item name="TAMATO RICE" price="130 / 90" />
-<Item name="VEG PULAO" price="180" />
-<Item name="VEG BIRYANI" price="190" />
-<Item name="KHICHADI" price="120 / 80" />
-<Item name="BUTTER KHICHADI" price="170 / 100" />
-<Item name="KAJU PULAO" price="230" />
-<Item name="LEMON RICE" price="170" />
-<Item name="PANEER PULAO" price="190" />
-<Item name="MUTTER PULAO" price="170" />
-<Item name="MASALA RICE" price="160 / 90" />
-<Item name="ONION RICE" price="130 / 90" />
+            <Item name="JEERA RICE" price="120 / 90" />
+            <Item name="TAMATO RICE" price="130 / 90" />
+            <Item name="VEG PULAO" price="180" />
+            <Item name="VEG BIRYANI" price="190" />
+            <Item name="KHICHADI" price="120 / 80" />
+            <Item name="BUTTER KHICHADI" price="170 / 100" />
+            <Item name="KAJU PULAO" price="230" />
+            <Item name="LEMON RICE" price="170" />
+            <Item name="PANEER PULAO" price="190" />
+            <Item name="MUTTER PULAO" price="170" />
+            <Item name="MASALA RICE" price="160 / 90" />
+            <Item name="ONION RICE" price="130 / 90" />
 
           </MenuSection>
 
@@ -103,7 +116,7 @@ export default function App() {
             <Item name="ONION UTTAPAM" price="80" />
             <Item name="PANEER DOSA" price="120" />
           </MenuSection>
-          
+
                     <MenuSection title="PANEER (MAIN)">
             <Item name="PANEER PUNJABI" price="260 / 140" />
             <Item name="PANEER KOLHAPURI" price="220" />
@@ -143,18 +156,7 @@ export default function App() {
 <Item name="VEG KOFTA ANGARA" price="260" />
           </MenuSection>
 
-                    <MenuSection title="ROTI">
-           <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="14"/>
-<Item name="BUTTER ROTI (TAWA/TANDOORI)" price="17" />
-<Item name="PLAIN NAAN" price="35" />
-<Item name="BUTTER NAAN" price="45" />
-<Item name="LACHHA PARATHA" price="40" />
-<Item name="GARLIC NAAN" price="70" />
-<Item name="PANEER KULCHA" price="100" />
-<Item name="ONION KULCHA" price="70" />
-<Item name="MISSI ROTI" price="40" />
-<Item name="STUFF KULCHA" price="80" />
-          </MenuSection>
+
 
           <MenuSection title="BREAKFAST">
     <Item name="PLAIN PARATHA" price="30" />
