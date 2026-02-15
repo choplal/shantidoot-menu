@@ -115,10 +115,6 @@ export default function App() {
 
           </MenuSection>
 
-          <MenuSection title="EXTRA ITEMS">
-            <Item name="BUTTER CUBES" price="10" />
-          </MenuSection>
-
           <MenuSection title="SOUTH INDIAN">
             <Item name="PLAIN UTTAPAM" price= "70" />
             <Item name="IDLI FRY" price= "100" />
@@ -128,6 +124,10 @@ export default function App() {
             <Item name="IDLI SAMBAR" price="90" />
             <Item name="ONION UTTAPAM" price="80" />
             <Item name="PANEER DOSA" price="120" />
+          </MenuSection>
+
+             <MenuSection title="EXTRA ITEMS">
+            <Item name="BUTTER CUBES" price="10" />
           </MenuSection>
 
                     <MenuSection title="PANEER (MAIN)">
