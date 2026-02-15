@@ -174,10 +174,6 @@ export default function App() {
     <Item name="PAPAD KACHUMMER" price="60" />
 </MenuSection>
 
-   <MenuSection title="EXTRA ITEMS">
-            <Item name="BUTTER CUBES" price="10" />
-          </MenuSection>
-          
 <MenuSection title="SALAD">
     <Item name="GREEN SALAD" price="80" />
     <Item name="ONION SALAD" price="80" />
@@ -256,6 +252,10 @@ export default function App() {
     <Item name="GULABJAMUN (1PC)" price="20" />
 </MenuSection>
  
+   <MenuSection title="EXTRA ITEMS">
+            <Item name="BUTTER CUBES" price="10" />
+          </MenuSection>
+          
           <MenuSection title="SPECIAL THALI">
             <Item name="PRICE" price="320" />
             <p className="text-xs text-gray-400 mt-3 leading-5">
