@@ -258,7 +258,7 @@ export default function App() {
             <Item name="PRICE" price="320" />
             <p className="text-xs text-gray-400 mt-3 leading-5">
               INCLUDES: 4 BUTTER ROTI, PANEER DISH, SEASONAL VEG,
-              DAL FRY, PLAIN RICE, SALAD, PAPAD, RAITA, SWEET
+              DAL FRY, JEERA RICE, SALAD, PAPAD, RAITA, SWEET
             </p>
           </MenuSection>
 <MenuSection title="EXTRA ITEMS">
