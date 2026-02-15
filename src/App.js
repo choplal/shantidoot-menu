@@ -88,6 +88,10 @@ export default function App() {
             <Item name="MISSI ROTI" price="40" />
             <Item name="STUFF KULCHA" price="80" />
           </MenuSection>
+          
+          <MenuSection title="EXTRA ITEMS">
+            <Item name="BUTTER CUBES" price="10" />
+          </MenuSection>
 
           <MenuSection title="RICE">
             <Item name="PLAIN RICE" price="110 / 80" />
@@ -259,10 +263,6 @@ export default function App() {
               DAL FRY, JEERA RICE, SALAD, PAPAD, RAITA, SWEET
             </p>
           </MenuSection>
-<MenuSection title="EXTRA ITEMS">
-            <Item name="BUTTER CUBES" price="10" />
-          </MenuSection>
-
         </div>
 
         {/* Footer */}
