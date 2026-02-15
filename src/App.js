@@ -88,7 +88,7 @@ export default function App() {
             <Item name="MISSI ROTI" price="40" />
             <Item name="STUFF KULCHA" price="80" />
           </MenuSection>
-          
+
           <MenuSection title="EXTRA ITEMS">
             <Item name="BUTTER CUBES" price="10" />
           </MenuSection>
@@ -121,13 +121,6 @@ export default function App() {
             <Item name="PANEER DOSA" price="120" />
           </MenuSection>
 
- <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
-            <Item name="PANEER ANGARA" price="320" />
-<Item name="KAJU ANGARA" price="320" />
-<Item name="PANEER KOFTA ANGARA" price="320" />
-<Item name="MUSHROOM ANGARA" price="320" />
-<Item name="VEG KOFTA ANGARA" price="260" />
-          </MenuSection>
                     <MenuSection title="PANEER (MAIN)">
             <Item name="PANEER PUNJABI" price="260 / 140" />
             <Item name="PANEER KOLHAPURI" price="220" />
@@ -168,6 +161,20 @@ export default function App() {
     <Item name="CHOLA BHATURA" price="120" />
     <Item name="PURI SABJI" price="120" />
     <Item name="PARATHA WITH CURD (1 PC.)" price="90" />
+</MenuSection>
+         <MenuSection title="PAPAD">
+    <Item name="PAPAD FRY" price="20" />
+    <Item name="PAPAD ROAST" price="15" />
+    <Item name="PAPAD MASALA" price="35" />
+    <Item name="PAPAD KACHUMMER" price="60" />
+</MenuSection>
+
+<MenuSection title="SALAD">
+    <Item name="GREEN SALAD" price="80" />
+    <Item name="ONION SALAD" price="80" />
+    <Item name="CUCUMBER SALAD" price="90" />
+    <Item name="TOMATO SALAD" price="70" />
+    <Item name="KACHUMBAR SALAD" price="90" />
 </MenuSection>
 
 <MenuSection title="SOUP">
@@ -235,26 +242,18 @@ export default function App() {
     <Item name="CUCUMBER RAITA" price="90 / 50" />
           </MenuSection>
 
-          <MenuSection title="PAPAD">
-    <Item name="PAPAD FRY" price="20" />
-    <Item name="PAPAD ROAST" price="15" />
-    <Item name="PAPAD MASALA" price="35" />
-    <Item name="PAPAD KACHUMMER" price="60" />
-</MenuSection>
-
-<MenuSection title="SALAD">
-    <Item name="GREEN SALAD" price="80" />
-    <Item name="ONION SALAD" price="80" />
-    <Item name="CUCUMBER SALAD" price="90" />
-    <Item name="TOMATO SALAD" price="70" />
-    <Item name="KACHUMBAR SALAD" price="90" />
-</MenuSection>
-
           <MenuSection title="SWEETS & DESSERTS">
     <Item name="RASGULLA (1PC)" price="20" />
     <Item name="GULABJAMUN (1PC)" price="20" />
 </MenuSection>
           
+          <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
+            <Item name="PANEER ANGARA" price="320" />
+<Item name="KAJU ANGARA" price="320" />
+<Item name="PANEER KOFTA ANGARA" price="320" />
+<Item name="MUSHROOM ANGARA" price="320" />
+<Item name="VEG KOFTA ANGARA" price="260" />
+          </MenuSection>
 
           <MenuSection title="SPECIAL THALI">
             <Item name="PRICE" price="320" />
