@@ -301,9 +301,15 @@ function MenuSection({ title, children }) {
 
 function Item({ name, price }) {
   return (
-    <div className="flex justify-between">
-      <span className="font-extrabold tracking-wide uppercase text-[15px]">{name}</span>
-      <span className="text-yellow-400 font-semibold">₹ {price}</span>
+    <div style={{
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      width: "100%"
+    }}>
+      <div>{name}</div>
+      <div>₹ {price}</div>
     </div>
   );
 }
+
