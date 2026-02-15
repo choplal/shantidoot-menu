@@ -61,7 +61,7 @@ export default function App() {
           </MenuSection>
 
           <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
-            <Item name="PANEER ANGARA" price="310" />
+            <Item name="PANEER ANGARA" price="320" />
 <Item name="KAJU ANGARA" price="320" />
 <Item name="PANEER KOFTA ANGARA" price="320" />
 <Item name="MUSHROOM ANGARA" price="320" />
@@ -98,7 +98,7 @@ export default function App() {
 
           <MenuSection title="PANEER (MAIN)">
             <Item name="PANEER PUNJABI" price="260 / 140" />
-            <Item name="PANEER KOLHAPURI" price="190" />
+            <Item name="PANEER KOLHAPURI" price="220" />
             <Item name="PANEER BUTTER MASALA" price= "240/130" />
             <Item name="PANEER SHAHI" price="240 / 130" />
             <Item name="PANEER DHABA" price="240 / 130" />
@@ -110,7 +110,8 @@ export default function App() {
             <Item name="CHEESE BUTTER MASALA" price= "270/140" />
             <Item name="MUSHROOM PALAK" price="270 / 140" />
             <Item name="MUSHROOM MASALA" price="260 / 140" />
-            <Item name="MUSHROOM MUTTER" price="260 / 140" />
+            <Item name="MUSHROOM MUTTER" price="260 / 130" />
+            <Item name="MUSHROOM PANEER" price= "280" />
             <Item name="PANEER KOFTA" price="290" />
             <Item name="PANEER PASANDA" price="290" />
             <Item name="PANEER BHURJI" price="280" />
@@ -123,7 +124,7 @@ export default function App() {
             <Item name="PANEER JAIPURI" price="260" />
             <Item name="PANEER KADAI" price="260" />
             <Item name="PANEER MASALA" price="250 / 160" />
-            <Item name="KAJU PANEER" price="260 / 140" />
+            <Item name="KAJU PANEER" price="290 / 160" />
           </MenuSection>
 
           <MenuSection title="BREAKFAST">
@@ -151,7 +152,7 @@ export default function App() {
     <Item name="VEG MANCHURIAN" price="160 / 90" />
     <Item name="VEG FRY RICE" price="160" />
     <Item name="CHANA CHILLY" price="170" />
-    <Item name="VEG KOFTA" price="180" />
+    <Item name="VEG KOTHE" price="180" />
     <Item name="CHILLY PANEER" price="220" />
     <Item name="PANEER 65" price="230" />
     <Item name="HARA BHARA KABAB" price="220" />
@@ -177,6 +178,7 @@ export default function App() {
             <Item name="STUFFED CAPSICUM" price="190" />
             <Item name="MIX VEG" price="180 / 110" />
             <Item name="BHINDI FRY" price="160 / 100" />
+            <Item name="BHINDI KURKURE" price="170" />
             <Item name="BHINDI MASALA" price="170 / 110" />
             <Item name="SEV TOMATO" price="180 / 110" />
             <Item name="GOBI MASALA" price="160 / 90" />
@@ -203,9 +205,9 @@ export default function App() {
 
           <MenuSection title="ROTI">
            <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="12"/>
-<Item name="BUTTER ROTI (TAWA/TANDOORI)"price="15"/>
+<Item name="BUTTER ROTI (TAWA/TANDOORI)"price="16"/>
 <Item name="PLAIN NAAN" price="35" />
-<Item name="BUTTER NAAN" price="40" />
+<Item name="BUTTER NAAN" price="45" />
 <Item name="LACHHA PARATHA" price="40" />
 <Item name="GARLIC NAAN" price="70" />
 <Item name="PANEER KULCHA" price="100" />
