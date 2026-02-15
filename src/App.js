@@ -51,12 +51,14 @@ export default function App() {
           </MenuSection>
 
           <MenuSection title="SNACKS">
+            <Item name="FINGER CHIPS" price="90" />
             <Item name="VEG PAKODA" price="110" />
             <Item name="PANEER PAKODA" price="180" />
             <Item name="ONION PAKODA" price= "100" />
             <Item name="CHANA ROAST" price="140" />
             <Item name="FINGER CHIPS" price= "20" />
             <Item name="PEANUT MASLALA" price= "130" />
+            <Item name="PEANUT FRY" price= "100" />
             <Item name="PANEER TIKKA (8 PCS)" price="270" />
           </MenuSection>
 
@@ -94,6 +96,7 @@ export default function App() {
             <Item name="MASALA DOSA" price="90" />
             <Item name="IDLI SAMBAR" price="90" />
             <Item name="ONION UTTAPAM" price="80" />
+            <Item name="PANEER DOSA" price="120" />
           </MenuSection>
 
           <MenuSection title="PANEER (MAIN)">
@@ -192,7 +195,7 @@ export default function App() {
           <MenuSection title="DAL">
             <Item name="DAL FRY" price="120 / 80" />
             <Item name="DAL TADKA" price="130 / 90" />
-            <Item name="DAL BUTTER FRY" price="160" />
+            <Item name="DAL BUTTER FRY" price="160/100" />
             <Item name="DAL SNACKS" price="160" />
           </MenuSection>
           <MenuSection title="DAHI & RAITA">
