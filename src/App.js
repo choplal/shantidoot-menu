@@ -76,6 +76,15 @@ export default function App() {
             <Item name="PANEER TIKKA (8 PCS)" price="270" />
           </MenuSection>
 
+         
+          <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
+            <Item name="PANEER ANGARA" price="320" />
+<Item name="KAJU ANGARA" price="320" />
+<Item name="PANEER KOFTA ANGARA" price="320" />
+<Item name="MUSHROOM ANGARA" price="320" />
+<Item name="VEG KOFTA ANGARA" price="260" />
+          </MenuSection>
+
                      <MenuSection title="ROTI">
             <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="14"/>
             <Item name="BUTTER ROTI (TAWA/TANDOORI)" price="17" />
@@ -89,11 +98,7 @@ export default function App() {
             <Item name="STUFF KULCHA" price="80" />
           </MenuSection>
 
-          <MenuSection title="EXTRA ITEMS">
-            <Item name="BUTTER CUBES" price="10" />
-          </MenuSection>
-
-          <MenuSection title="RICE">
+                   <MenuSection title="RICE">
             <Item name="PLAIN RICE" price="110 / 80" />
             <Item name="JEERA RICE" price="120 / 90" />
             <Item name="TAMATO RICE" price="130 / 90" />
@@ -108,6 +113,10 @@ export default function App() {
             <Item name="MASALA RICE" price="160 / 90" />
             <Item name="ONION RICE" price="130 / 90" />
 
+          </MenuSection>
+
+          <MenuSection title="EXTRA ITEMS">
+            <Item name="BUTTER CUBES" price="10" />
           </MenuSection>
 
           <MenuSection title="SOUTH INDIAN">
@@ -246,15 +255,7 @@ export default function App() {
     <Item name="RASGULLA (1PC)" price="20" />
     <Item name="GULABJAMUN (1PC)" price="20" />
 </MenuSection>
-          
-          <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
-            <Item name="PANEER ANGARA" price="320" />
-<Item name="KAJU ANGARA" price="320" />
-<Item name="PANEER KOFTA ANGARA" price="320" />
-<Item name="MUSHROOM ANGARA" price="320" />
-<Item name="VEG KOFTA ANGARA" price="260" />
-          </MenuSection>
-
+ 
           <MenuSection title="SPECIAL THALI">
             <Item name="PRICE" price="320" />
             <p className="text-xs text-gray-400 mt-3 leading-5">
