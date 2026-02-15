@@ -103,16 +103,8 @@ export default function App() {
             <Item name="ONION UTTAPAM" price="80" />
             <Item name="PANEER DOSA" price="120" />
           </MenuSection>
-
- <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
-            <Item name="PANEER ANGARA" price="320" />
-<Item name="KAJU ANGARA" price="320" />
-<Item name="PANEER KOFTA ANGARA" price="320" />
-<Item name="MUSHROOM ANGARA" price="320" />
-<Item name="VEG KOFTA ANGARA" price="260" />
-          </MenuSection>
-
-          <MenuSection title="PANEER (MAIN)">
+          
+                    <MenuSection title="PANEER (MAIN)">
             <Item name="PANEER PUNJABI" price="260 / 140" />
             <Item name="PANEER KOLHAPURI" price="220" />
             <Item name="PANEER BUTTER MASALA" price= "240/130" />
@@ -141,6 +133,14 @@ export default function App() {
             <Item name="PANEER KADAI" price="260" />
             <Item name="PANEER MASALA" price="250 / 160" />
             <Item name="KAJU PANEER" price="290 / 160" />
+          </MenuSection>
+
+ <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
+            <Item name="PANEER ANGARA" price="320" />
+<Item name="KAJU ANGARA" price="320" />
+<Item name="PANEER KOFTA ANGARA" price="320" />
+<Item name="MUSHROOM ANGARA" price="320" />
+<Item name="VEG KOFTA ANGARA" price="260" />
           </MenuSection>
 
                     <MenuSection title="ROTI">
