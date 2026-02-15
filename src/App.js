@@ -193,6 +193,13 @@ export default function App() {
             <Item name="DAL BUTTER FRY" price="160" />
             <Item name="DAL SNACKS" price="160" />
           </MenuSection>
+          <MenuSection title="DAHI & RAITA">
+    <Item name="PLAIN DAHI" price="100 / 60" />
+    <Item name="DAHI TADKA" price="110 / 70" />
+    <Item name="BUNDI RAITA" price="100 / 60" />
+    <Item name="VEG RAITA" price="100 / 60" />
+    <Item name="CUCUMBER RAITA" price="90 / 50" />
+          </MenuSection>
 
           <MenuSection title="ROTI">
            <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="12"/>
