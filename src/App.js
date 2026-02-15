@@ -76,15 +76,6 @@ export default function App() {
             <Item name="PANEER TIKKA (8 PCS)" price="270" />
           </MenuSection>
 
-          <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
-            <Item name="PANEER ANGARA" price="320" />
-<Item name="KAJU ANGARA" price="320" />
-<Item name="PANEER KOFTA ANGARA" price="320" />
-<Item name="MUSHROOM ANGARA" price="320" />
-<Item name="VEG KOFTA ANGARA" price="260" />
-          </MenuSection>
-          
-          
           <MenuSection title="RICE">
             <Item name="PLAIN RICE" price="110 / 80" />
 <Item name="JEERA RICE" price="120 / 90" />
@@ -113,6 +104,14 @@ export default function App() {
             <Item name="PANEER DOSA" price="120" />
           </MenuSection>
 
+ <MenuSection title="🌶 SPECIAL DISHES (SPICY)">
+            <Item name="PANEER ANGARA" price="320" />
+<Item name="KAJU ANGARA" price="320" />
+<Item name="PANEER KOFTA ANGARA" price="320" />
+<Item name="MUSHROOM ANGARA" price="320" />
+<Item name="VEG KOFTA ANGARA" price="260" />
+          </MenuSection>
+          
           <MenuSection title="PANEER (MAIN)">
             <Item name="PANEER PUNJABI" price="260 / 140" />
             <Item name="PANEER KOLHAPURI" price="220" />
