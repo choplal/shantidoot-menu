@@ -153,7 +153,7 @@ export default function App() {
     <Item name="VEG CHOWMEIN" price="130 / 90" />
     <Item name="VEG HAKKA NOODLES" price="140" />
     <Item name="VEG MANCHURIAN" price="160 / 90" />
-    <Item name="VEG FRY RICE" price="160" />
+    <Item name="VEG FRIRD RICE" price="160" />
     <Item name="CHANA CHILLY" price="170" />
     <Item name="VEG KOTHE" price="180" />
     <Item name="CHILLY PANEER" price="220" />
@@ -207,7 +207,7 @@ export default function App() {
           </MenuSection>
 
           <MenuSection title="ROTI">
-           <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="12"/>
+           <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="13"/>
 <Item name="BUTTER ROTI (TAWA/TANDOORI)"price="16"/>
 <Item name="PLAIN NAAN" price="35" />
 <Item name="BUTTER NAAN" price="45" />
