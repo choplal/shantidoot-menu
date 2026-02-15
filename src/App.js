@@ -145,7 +145,7 @@ export default function App() {
 
                     <MenuSection title="ROTI">
            <Item name="PLAIN ROTI (TAWA/TANDOORI)"price="14"/>
-<Item name="BUTTER ROTI (TAWA/TANDOORI)"price="17"/>
+<Item name="BUTTER ROTI (TAWA/TANDOORI)" price="17" />
 <Item name="PLAIN NAAN" price="35" />
 <Item name="BUTTER NAAN" price="45" />
 <Item name="LACHHA PARATHA" price="40" />
