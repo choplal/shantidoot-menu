@@ -33,7 +33,7 @@ export default function App() {
         </div>
 
         {/* Menu Grid */}
-        <div className="grid grid-cols-2 gap-x-20 gap-y-14">
+        <div className="columns-2 gap-20">
 
           <MenuSection title="THANDA GARAM">
             <Item name="TEA / BLACK TEA" price="20" />
@@ -266,7 +266,7 @@ export default function App() {
 
 function MenuSection({ title, children }) {
   return (
-    <div>
+    <div className="break-inside-avoid mb-8">
       <h2 className="text-yellow-500 text-xl font-semibold tracking-[3px] mb-6 relative">
         {title}
         <span className="block w-12 h-[2px] bg-yellow-600 mt-2"></span>
