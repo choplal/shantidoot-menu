@@ -24,6 +24,21 @@ export default function App() {
             📞 9399110810
           </p>
 
+          <div className="mt-4 space-y-1">
+  <div className="w-20 h-[1px] bg-yellow-600 mx-auto"></div>
+
+  <p className="text-yellow-400 text-sm tracking-[3px] uppercase font-semibold">
+    Opening Time : 8:00 AM
+  </p>
+
+  <p className="text-gray-300 text-sm tracking-[3px] uppercase">
+    Closing Time : 10:30 PM
+  </p>
+
+  <div className="w-20 h-[1px] bg-yellow-600 mx-auto"></div>
+</div>
+
+
           <div className="h-[2px] bg-yellow-600 mt-6"></div>
         </div>
 
