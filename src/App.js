@@ -267,27 +267,40 @@ export default function App() {
           </MenuSection>
         </div>
 
-        
-<div className="break-inside-avoid mb-12 flex justify-center">
-  <div className="relative w-[380px] h-[380px] rounded-full border-4 border-yellow-600 flex flex-col justify-center items-center text-center bg-gradient-to-br from-black via-zinc-900 to-black shadow-[0_0_40px_rgba(234,179,8,0.4)]">
+   <div className="break-inside-avoid mb-12 flex justify-center">
+  <div className="relative w-[340px] h-[340px] flex items-center justify-center">
 
-    <h2 className="text-yellow-500 text-xl tracking-[4px] font-bold mb-6">
-      ★ BEST SELLERS ★
-    </h2>
+    {/* Outer Golden Ring */}
+    <div className="absolute w-full h-full rounded-full bg-gradient-to-br from-yellow-400 via-yellow-600 to-yellow-800 flex items-center justify-center shadow-[0_0_25px_rgba(234,179,8,0.5)]">
 
-    <div className="space-y-3 text-yellow-300 font-semibold tracking-wide">
-      <p>PANEER ANGARA</p>
-      <p>MUSHROOM ANGARA</p>
-      <p>PANEER KOLHAPURI</p>
-      <p>VEG MOMO (STEAM & FRIED)</p>
-      <p>BUTTER PANEER MASALA</p>
-      <p>DHABA PANEER</p>
+      {/* Ring Border */}
+      <div className="absolute inset-0 rounded-full border-[6px] border-yellow-300"></div>
+
+      {/* Inner White Circle */}
+      <div className="w-[240px] h-[240px] rounded-full bg-white flex flex-col items-center justify-center text-center px-6 shadow-inner">
+
+        <h2 className="text-lg font-bold text-yellow-700 tracking-widest mb-3">
+          BEST SELLERS
+        </h2>
+
+        <div className="space-y-1 text-black font-semibold text-xs leading-5">
+          <p>PANEER ANGARA</p>
+          <p>MUSHROOM ANGARA</p>
+          <p>PANEER KOLHAPURI</p>
+          <p>VEG MOMO (STEAM & FRIED)</p>
+          <p>BUTTER PANEER MASALA</p>
+          <p>DHABA PANEER</p>
+        </div>
+
+      </div>
     </div>
 
-    <div className="absolute w-[420px] h-[420px] rounded-full border border-yellow-700 animate-pulse"></div>
+    {/* Small Ribbon */}
+    <div className="absolute top-0 right-[40px] w-12 h-16 bg-gradient-to-b from-yellow-300 to-yellow-600 rounded-b-lg shadow-md rotate-12"></div>
 
   </div>
 </div>
+
 
         {/* Footer */}
        <div className="text-center mt-16 border-t border-yellow-600 pt-6 space-y-2">
