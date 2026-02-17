@@ -58,8 +58,8 @@ export default function App() {
             <Item name="BUTTERMILK" price="35" />
             <Item name="LASSI" price="90" />
             <Item name="MINIRAL WATER" price= "20" />
-            <Item name="COLD DRINK (750 ml)" price= "50" />
-            <Item name="COLD DRINK (200 ml)" price= "20" />
+            <Item name="COLD DRINK (750 ml)" price= "45" />
+            <Item name="COLD DRINK (250 ml)" price= "25" />
             <Item name="FRESH LIME WATER" price= "35" />
             <Item name="FRESH LIME SODA" price= "45" />
             <Item name="SODA" price= "25" />
