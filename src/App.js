@@ -267,39 +267,47 @@ export default function App() {
           </MenuSection>
         </div>
 
-   <div className="break-inside-avoid mb-12 flex justify-center">
-  <div className="relative w-[340px] h-[340px] flex items-center justify-center">
+{/* Premium Divider Space */}
+<div className="col-span-2 flex justify-center mt-20 mb-16">
 
-    {/* Outer Golden Ring */}
-    <div className="absolute w-full h-full rounded-full bg-gradient-to-br from-yellow-400 via-yellow-600 to-yellow-800 flex items-center justify-center shadow-[0_0_25px_rgba(234,179,8,0.5)]">
+  <div className="text-center">
 
-      {/* Ring Border */}
-      <div className="absolute inset-0 rounded-full border-[6px] border-yellow-300"></div>
-
-      {/* Inner White Circle */}
-      <div className="w-[240px] h-[240px] rounded-full bg-white flex flex-col items-center justify-center text-center px-6 shadow-inner">
-
-        <h2 className="text-lg font-bold text-yellow-700 tracking-widest mb-3">
-          BEST SELLERS
-        </h2>
-
-        <div className="space-y-1 text-black font-semibold text-xs leading-5">
-          <p>PANEER ANGARA</p>
-          <p>MUSHROOM ANGARA</p>
-          <p>PANEER KOLHAPURI</p>
-          <p>VEG MOMO (STEAM & FRIED)</p>
-          <p>BUTTER PANEER MASALA</p>
-          <p>DHABA PANEER</p>
-        </div>
-
-      </div>
+    {/* Top Stars */}
+    <div className="flex justify-center gap-3 text-yellow-500 text-lg mb-3">
+      ★ ★ ★ ★ ★
     </div>
 
-    {/* Small Ribbon */}
-    <div className="absolute top-0 right-[40px] w-12 h-16 bg-gradient-to-b from-yellow-300 to-yellow-600 rounded-b-lg shadow-md rotate-12"></div>
+    {/* Gold Ribbon */}
+    <div className="flex items-center justify-center shadow-lg">
+
+      <div className="bg-white text-yellow-600 font-bold tracking-[6px] px-8 py-3 text-xl">
+        BEST
+      </div>
+
+      <div className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-white font-bold tracking-[6px] px-10 py-3 text-xl">
+        SELLER
+      </div>
+
+    </div>
+
+    {/* Bottom Stars */}
+    <div className="flex justify-center gap-3 text-yellow-500 text-lg mt-3">
+      ★ ★ ★ ★ ★
+    </div>
+
+    {/* Special Items */}
+    <div className="mt-8 space-y-3 text-yellow-400 font-semibold tracking-wide text-base">
+      <p>PANEER ANGARA</p>
+      <p>MUSHROOM ANGARA</p>
+      <p>PANEER KOLHAPURI</p>
+      <p>VEG MOMO (STEAM & FRIED)</p>
+      <p>BUTTER PANEER MASALA</p>
+      <p>DHABA PANEER</p>
+    </div>
 
   </div>
 </div>
+
 
 
         {/* Footer */}
