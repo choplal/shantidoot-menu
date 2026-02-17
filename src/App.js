@@ -267,42 +267,63 @@ export default function App() {
           </MenuSection>
         </div>
 
-{/* Premium Divider Space */}
-<div className="col-span-2 flex justify-center mt-20 mb-16">
+<div className="break-inside-avoid flex justify-center mt-20 mb-16">
 
-  <div className="text-center">
+  <div className="relative w-[440px] aspect-square flex items-center justify-center">
 
-    {/* Top Stars */}
-    <div className="flex justify-center gap-3 text-yellow-500 text-lg mb-3">
-      ★ ★ ★ ★ ★
-    </div>
+    {/* Outer Medal */}
+    <div
+      className="absolute inset-0 bg-gradient-to-br from-yellow-300 via-yellow-500 to-yellow-700 shadow-2xl"
+      style={{
+        clipPath:
+          "polygon(50% 0%, 60% 8%, 72% 4%, 78% 14%, 90% 10%, 92% 22%, 100% 30%, 96% 42%, 100% 50%, 96% 58%, 100% 70%, 92% 78%, 90% 90%, 78% 86%, 72% 96%, 60% 92%, 50% 100%, 40% 92%, 28% 96%, 22% 86%, 10% 90%, 8% 78%, 0% 70%, 4% 58%, 0% 50%, 4% 42%, 0% 30%, 8% 22%, 10% 10%, 22% 14%, 28% 4%, 40% 8%)",
+      }}
+    ></div>
 
-    {/* Gold Ribbon */}
-    <div className="flex items-center justify-center shadow-lg">
+    {/* Inner Circle */}
+    <div className="
+      relative 
+      w-[330px] 
+      aspect-square 
+      rounded-full 
+      bg-gradient-to-b from-yellow-100 via-yellow-200 to-yellow-300
+      border-[5px] border-yellow-800 
+      shadow-inner
+      flex flex-col items-center justify-center 
+      text-center 
+      px-8 py-8
+    ">
 
-      <div className="bg-white text-yellow-600 font-bold tracking-[6px] px-8 py-3 text-xl">
-        BEST
+      {/* Top Stars */}
+      <div className="text-yellow-800 text-sm tracking-[6px] mb-2">
+        ★ ★ ★ ★ ★
       </div>
 
-      <div className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-white font-bold tracking-[6px] px-10 py-3 text-xl">
-        SELLER
+      {/* Ribbon */}
+      <div className="flex items-center justify-center shadow-md mb-3">
+        <div className="bg-white text-yellow-700 font-bold tracking-[4px] px-4 py-1 text-xs">
+          BEST
+        </div>
+        <div className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white font-bold tracking-[4px] px-5 py-1 text-xs">
+          SELLER
+        </div>
       </div>
 
-    </div>
+      {/* Middle Stars */}
+      <div className="text-yellow-800 text-sm tracking-[6px] mb-3">
+        ★ ★ ★ ★ ★
+      </div>
 
-    {/* Bottom Stars */}
-    <div className="flex justify-center gap-3 text-yellow-500 text-lg mt-3">
-      ★ ★ ★ ★ ★
-    </div>
+      {/* Menu Items */}
+      <div className="space-y-1 text-[#5a2e00] font-semibold text-[13px] leading-4">
+        <p>★ PANEER ANGARA ★</p>
+        <p>★ MUSHROOM ANGARA ★</p>
+        <p>★ PANEER KOLHAPURI ★</p>
+        <p>★ VEG MOMO (STEAM & FRIED) ★</p>
+        <p>★ BUTTER PANEER MASALA ★</p>
+        <p>★ DHABA PANEER ★</p>
+      </div>
 
-    {/* Special Items */}
-    <div className="mt-8 space-y-3 text-yellow-400 font-semibold tracking-wide text-base">
-      <p>PANEER ANGARA</p>
-      <p>MUSHROOM ANGARA</p>
-      <p>PANEER KOLHAPURI</p>
-      <p>VEG MOMO (STEAM & FRIED)</p>
-      <p>BUTTER PANEER MASALA</p>
-      <p>DHABA PANEER</p>
     </div>
 
   </div>
