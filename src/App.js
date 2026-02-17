@@ -190,7 +190,8 @@ export default function App() {
 </MenuSection>
 
 <MenuSection title="CHINESE">
-    <Item name="VEG MOMOS (8 PC)" price="140" />
+    <Item name="VEG MOMO STEAM (8 PC)" price="140" />
+    <Item name="VEG MOMO FRIED (8 PC)" price="160" />
     <Item name="VEG CHOWMEIN" price="130 / 90" />
     <Item name="VEG HAKKA NOODLES" price="140" />
     <Item name="VEG MANCHURIAN" price="160 / 90" />
@@ -251,6 +252,7 @@ export default function App() {
     <Item name="RASGULLA (1PC)" price="20" />
     <Item name="GULABJAMUN (1PC)" price="20" />
 </MenuSection>
+
  
    <MenuSection title="EXTRA ITEMS">
             <Item name="BUTTER CUBES" price="10" />
@@ -264,6 +266,28 @@ export default function App() {
             </p>
           </MenuSection>
         </div>
+
+        
+<div className="break-inside-avoid mb-12 flex justify-center">
+  <div className="relative w-[380px] h-[380px] rounded-full border-4 border-yellow-600 flex flex-col justify-center items-center text-center bg-gradient-to-br from-black via-zinc-900 to-black shadow-[0_0_40px_rgba(234,179,8,0.4)]">
+
+    <h2 className="text-yellow-500 text-xl tracking-[4px] font-bold mb-6">
+      ★ BEST SELLERS ★
+    </h2>
+
+    <div className="space-y-3 text-yellow-300 font-semibold tracking-wide">
+      <p>PANEER ANGARA</p>
+      <p>MUSHROOM ANGARA</p>
+      <p>PANEER KOLHAPURI</p>
+      <p>VEG MOMO (STEAM & FRIED)</p>
+      <p>BUTTER PANEER MASALA</p>
+      <p>DHABA PANEER</p>
+    </div>
+
+    <div className="absolute w-[420px] h-[420px] rounded-full border border-yellow-700 animate-pulse"></div>
+
+  </div>
+</div>
 
         {/* Footer */}
        <div className="text-center mt-16 border-t border-yellow-600 pt-6 space-y-2">
