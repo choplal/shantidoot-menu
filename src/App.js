@@ -68,7 +68,7 @@ export default function App() {
           <MenuSection title="SNACKS">
             <Item name="FINGER CHIPS" price="90" />
             <Item name="VEG PAKODA" price="110" />
-            <Item name="PANEER PAKODA" price="180" />
+            <Item name="PANEER PAKODA" price="220" />
             <Item name="ONION PAKODA" price= "100" />
             <Item name="CHANA ROAST" price="140" />
             <Item name="PEANUT MASLALA" price= "130" />
