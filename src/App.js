@@ -236,7 +236,7 @@ export default function App() {
             <Item name="KADAI KOFTA" price="230" />
             <Item name="CHANA MASALA" price="170 / 90" />
             <Item name="VEG KOFTA" price="180" />
-            <Item name="BHINDI MASALA" price="160 / 90" />
+            <Item name="ALOO GOBI" price="170 / 90" />
             <Item name="GOBI MUTTER" price="160 / 90" />
             <Item name="ALOO MUTTER" price="170 / 90" />
             <Item name="ALOO MUTTER TOMATO" price="170 / 90" />
