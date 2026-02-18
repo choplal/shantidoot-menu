@@ -3,46 +3,47 @@ export default function App() {
     <div className="flex justify-center bg-sky-200 print:bg-white">
      <div className="w-[794px] min-h-[1123px] px-16 py-14 text-[15px] leading-7 text-black font-semibold print:text-black font-serif">
 
+{/* Royal Header */}
+<div className="text-center mb-14">
 
+  <div className="h-[3px] bg-yellow-600 mb-6"></div>
 
-        {/* Royal Header */}
-        <div className="text-center mb-12">
-          <div className="h-[2px] bg-yellow-600 mb-6"></div>
+  <h1 className="text-6xl tracking-[8px] font-extrabold text-yellow-600">
+    SHANTIDOOT
+  </h1>
 
-          <h1 className="text-5xl tracking-[6px] font-bold text-yellow-500">
-            SHANTIDOOT
-          </h1>
-          <h2 className="text-xl tracking-[4px] text-yellow-400 mt-2">
-            RESTAURANT
-          </h2>
-          <p className="text-yellow-500 mt-3 text-lg">
-            (शांतिदूत रेस्टोरेंट)
-          </p>
+  <h2 className="text-2xl tracking-[5px] font-bold text-yellow-700 mt-3">
+    RESTAURANT
+  </h2>
 
-          <p className="text-gray-400 text-sm mt-4">
-            Jabalpur Bypass Road, SH-22, Gadarwara (M.P.)
-          </p>
-          <p className="text-gray-400 text-sm">
-            📞 9399110810
-          </p>
-
-          <div className="mt-4 space-y-1">
-  <div className="w-20 h-[1px] bg-yellow-600 mx-auto"></div>
-
-  <p className="text-yellow-400 text-sm tracking-[3px] uppercase font-semibold">
-    Opening Time : 8:00 AM
+  <p className="text-yellow-700 mt-4 text-xl font-semibold">
+    (शांतिदूत रेस्टोरेंट)
   </p>
 
-  <p className="text-gray-300 text-sm tracking-[3px] uppercase">
-    Closing Time : 10:30 PM
+  <p className="text-gray-800 text-base mt-5 font-semibold">
+    Jabalpur Bypass Road, SH-22, Gadarwara (M.P.)
   </p>
 
-  <div className="w-20 h-[1px] bg-yellow-600 mx-auto"></div>
+  <p className="text-gray-900 text-base font-bold">
+    📞 9399110810
+  </p>
+
+  <div className="mt-5 space-y-2">
+    <div className="w-24 h-[2px] bg-yellow-600 mx-auto"></div>
+
+    <p className="text-yellow-700 text-base tracking-[3px] uppercase font-bold">
+      Opening Time : 8:00 AM
+    </p>
+
+    <p className="text-gray-900 text-base tracking-[3px] uppercase font-bold">
+      Closing Time : 10:30 PM
+    </p>
+
+    <div className="w-24 h-[2px] bg-yellow-600 mx-auto"></div>
+  </div>
+
+  <div className="h-[3px] bg-yellow-600 mt-6"></div>
 </div>
-
-
-          <div className="h-[2px] bg-yellow-600 mt-6"></div>
-        </div>
 
         {/* Pricing Note */}
         <div className="text-center text-xs text-yellow-500 tracking-widest mb-14">
