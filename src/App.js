@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <div className="flex justify-center bg-black print:bg-black">
+    <div className="flex justify-center bg-[#0f172a] print:bg-[#0f172a]">
       <div className="w-[794px] min-h-[1123px] px-16 py-14 text-[14px] leading-7 text-white font-serif">
 
         {/* Royal Header */}
