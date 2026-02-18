@@ -236,14 +236,9 @@ export default function App() {
             <Item name="KADAI KOFTA" price="230" />
             <Item name="CHANA MASALA" price="170 / 90" />
             <Item name="VEG KOFTA" price="180" />
-            <Item name="ALOO GOBI" price="170 / 90" />
             <Item name="GOBI MUTTER" price="160 / 90" />
-            <Item name="ALOO MUTTER" price="170 / 90" />
-            <Item name="ALOO MUTTER TOMATO" price="170 / 90" />
             <Item name="TOMATO CHUTNEY" price="160" />
-            <Item name="ALOO JEERA" price="160 / 90" />
             <Item name="METHI MUTTER MALAI" price="180 / 120" />
-            <Item name="ALOO METHI MUTTER" price="170 / 90" />
             <Item name="MALAI KOFTA" price="220" />
             <Item name="STUFFED TOMATO" price="190" />
             <Item name="STUFFED CAPSICUM" price="190" />
@@ -253,10 +248,15 @@ export default function App() {
             <Item name="BHINDI MASALA" price="170 / 110" />
             <Item name="SEV TOMATO" price="180 / 110" />
             <Item name="GOBI MASALA" price="160 / 90" />
+            <Item name="ALOO GOBI" price="170 / 90" />
+            <Item name="ALOO MUTTER" price="170 / 90" />
+            <Item name="ALOO MUTTER TOMATO" price="170 / 90" />
+            <Item name="ALOO JEERA" price="160 / 90" />
+            <Item name="ALOO METHI MUTTER" price="170 / 90" />
+            <Item name="ALOO CHOLE" price="190 / 100" />
             <Item name="ALOO DUM" price="190" />
             <Item name="ALOO METHI" price="170 / 90" />
             <Item name="MUTTER MASALA" price="180 / 100" />
-            <Item name="ALOO CHOLE" price="190 / 100" />
             <Item name="SEV BHAJI" price="190" />
           </MenuSection>
 
