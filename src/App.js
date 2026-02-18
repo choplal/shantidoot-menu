@@ -1,54 +1,77 @@
 export default function App() {
   return (
     <div className="flex justify-center bg-sky-200 print:bg-white">
-     <div className="w-[794px] min-h-[1123px] px-16 py-14 text-[15px] leading-7 text-black font-semibold print:text-black font-serif">
+      
+      <div className="w-[794px] min-h-[1123px] px-16 py-10 text-[15px] leading-7 text-black font-semibold print:text-black font-serif">
 
-{/* Royal Header */}
-<div className="text-center mb-14">
+        {/* Royal Header */}
+        <div className="text-center mb-10">
 
-  <div className="h-[3px] bg-yellow-600 mb-6"></div>
+          {/* Curved Gradient Header */}
+          <div
+            className="bg-gradient-to-r from-indigo-700 via-purple-700 to-blue-700
+                       text-white
+                       rounded-b-[50px]
+                       py-8
+                       shadow-lg"
+          >
 
-  <h1 className="text-6xl tracking-[8px] font-extrabold text-yellow-600">
-    SHANTIDOOT
-  </h1>
+            <h1 className="text-6xl tracking-[8px] font-extrabold drop-shadow-md">
+              SHANTIDOOT
+            </h1>
 
-  <h2 className="text-2xl tracking-[5px] font-bold text-yellow-700 mt-3">
-    RESTAURANT
-  </h2>
+            <h2 className="text-2xl tracking-[5px] font-bold mt-2 opacity-95">
+              RESTAURANT
+            </h2>
 
-  <p className="text-yellow-700 mt-4 text-xl font-semibold">
-    (शांतिदूत रेस्टोरेंट)
-  </p>
+            <p className="mt-3 text-lg font-semibold opacity-90">
+              (शांतिदूत रेस्टोरेंट)
+            </p>
 
-  <p className="text-gray-800 text-base mt-5 font-semibold">
-    Jabalpur Bypass Road, SH-22, Gadarwara (M.P.)
-  </p>
+          </div>
 
-  <p className="text-gray-900 text-base font-bold">
-    📞 9399110810
-  </p>
+          {/* Info Section */}
+          <div className="mt-5 space-y-2">
 
-  <div className="mt-5 space-y-2">
-    <div className="w-24 h-[2px] bg-yellow-600 mx-auto"></div>
+            <p className="text-gray-900 text-base font-semibold">
+              Jabalpur Bypass Road, SH-22, Gadarwara (M.P.)
+            </p>
 
-    <p className="text-yellow-700 text-base tracking-[3px] uppercase font-bold">
-      Opening Time : 8:00 AM
-    </p>
+            <p className="text-blue-900 text-lg font-bold">
+              📞 9399110810
+            </p>
 
-    <p className="text-gray-900 text-base tracking-[3px] uppercase font-bold">
-      Closing Time : 10:30 PM
-    </p>
+            <div className="w-28 h-[2px] bg-blue-900 mx-auto"></div>
 
-    <div className="w-24 h-[2px] bg-yellow-600 mx-auto"></div>
+            <p className="text-indigo-900 text-base tracking-[3px] uppercase font-bold">
+              Opening Time : 8:00 AM
+            </p>
+
+            <p className="text-indigo-900 text-base tracking-[3px] uppercase font-bold">
+              Closing Time : 10:30 PM
+            </p>
+
+            <div className="w-28 h-[2px] bg-blue-900 mx-auto"></div>
+
+          </div>
+        </div>
+
+
+       {/* Elegant Pricing Note */}
+<div className="flex justify-center mb-16">
+  <div className="px-8 py-3 rounded-full 
+                  bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 
+                  text-black 
+                  text-sm 
+                  font-bold 
+                  tracking-[3px] 
+                  shadow-md">
+
+    PRICES SHOWN AS FULL / HALF • SINGLE PRICE = FULL ONLY
+
   </div>
-
-  <div className="h-[3px] bg-yellow-600 mt-6"></div>
 </div>
 
-        {/* Pricing Note */}
-        <div className="text-center text-xs text-yellow-500 tracking-widest mb-14">
-          PRICES SHOWN AS FULL / HALF • SINGLE PRICE = FULL ONLY
-        </div>
 
         {/* Menu Grid */}
         <div className="columns-2 gap-20">
@@ -261,13 +284,14 @@ export default function App() {
             <Item name="BUTTER CUBES" price="10" />
           </MenuSection>
           
-          <MenuSection title="SPECIAL THALI">
-            <Item name="PRICE" price="320" />
-            <p className="text-xs text-gray-400 mt-3 leading-5">
-              INCLUDES: 4 BUTTER ROTI, PANEER DISH, SEASONAL VEG,
-              DAL FRY, JEERA RICE, SALAD, PAPAD, RAITA, SWEET
-            </p>
-          </MenuSection>
+ <MenuSection title="SPECIAL THALI">
+  <Item name="PRICE" price="320" />
+  <p className="text-sm text-blue-900 mt-3 leading-6 italic font-medium tracking-wide">
+    INCLUDES: 4 BUTTER ROTI, PANEER DISH, SEASONAL VEG,
+    DAL FRY, JEERA RICE, SALAD, PAPAD, RAITA, SWEET
+  </p>
+</MenuSection>
+
         </div>
 
 <div className="break-inside-avoid flex justify-center mt-20 mb-16">
@@ -332,24 +356,29 @@ export default function App() {
   </div>
 </div>
 
+        {/* Stylish Elegant Footer */}
+        <div className="mt-20 text-center">
+          <div
+            className="relative py-10 px-6 rounded-t-[50px] 
+            bg-gradient-to-r from-indigo-900 via-blue-900 to-indigo-800 
+            text-white shadow-xl"
+          >
+            <p className="text-lg italic font-medium tracking-wide">
+              ऑर्डर देने के बाद भोजन तैयार होने में 20–30 मिनट का समय लगेगा
+            </p>
 
+            <p className="text-base mt-3 italic opacity-90">
+              After placing your order, it will take 20–30 minutes to prepare
+            </p>
 
-        {/* Footer */}
-       <div className="text-center mt-16 border-t border-yellow-600 pt-6 space-y-2">
+            <div className="w-28 h-[2px] bg-white mx-auto my-6 opacity-70"></div>
 
-  <p className="text-yellow-400 text-sm tracking-wide">
-    ऑर्डर देने के बाद भोजन तैयार होने में 20–30 मिनट का समय लगेगा
-  </p>
+            <p className="text-3xl font-bold tracking-[4px] font-serif">
+              Thank You For Visiting
+            </p>
+          </div>
+        </div>
 
-  <p className="text-gray-300 text-sm tracking-wide">
-    After placing your order, it will take 20–30 minutes to prepare
-  </p>
-
-  <p className="text-yellow-500 text-sm tracking-[3px] uppercase font-semibold">
-    Thank You For Visiting
-  </p>
-
-</div>
       </div>
     </div>
   );
@@ -358,7 +387,7 @@ export default function App() {
 function MenuSection({ title, children }) {
   return (
     <div className="break-inside-avoid mb-8">
-      <h2 className="text-yellow-500 text-xl font-semibold tracking-[3px] mb-6 relative">
+      <h2 className="text-blue-900 text-2xl font-extrabold tracking-[4px] mb-6 relative uppercase">
         {title}
         <span className="block w-12 h-[2px] bg-yellow-600 mt-2"></span>
       </h2>
@@ -369,15 +398,11 @@ function MenuSection({ title, children }) {
 
 function Item({ name, price }) {
   return (
-    <div style={{
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      width: "100%"
-    }}>
+    <div
+      className="flex justify-between items-center w-full text-gray-800 font-medium"
+    >
       <div>{name}</div>
-      <div>₹ {price}</div>
+      <div className="font-semibold text-black">₹ {price}</div>
     </div>
   );
 }
-
